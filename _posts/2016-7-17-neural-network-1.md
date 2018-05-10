@@ -9,6 +9,7 @@ comments: true
 
 参考资料:
 [Using neural nets to recognize handwritten digits--Michael Nielsen ](http://neuralnetworksanddeeplearning.com/chap1.html) 
+
 *****
 
 ### 1. perceptrons感知器
