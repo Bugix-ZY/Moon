@@ -9,7 +9,8 @@ comments: true
 
 ### 插入排序
 __示例的数据结构__
-<!--C-->
+
+```
 
     #define MAXSIZE 10
 
@@ -24,14 +25,15 @@ __示例的数据结构__
     typedef struct{
       ElemType data[MAXSIZE + 1];
     }myList,*List;
+```
 
 ---
 
 ## 一、插入排序
 
 ### 1.直接插入排序 Straight Insertion Sort
-<!--C-->
 
+```
     void InsertSort(myList &p)
     {
         int j;
@@ -45,15 +47,16 @@ __示例的数据结构__
           }
       }
     }
+```
     
 直接插入排序简单易懂，时间复杂度为O(n^2)，但是比较和移动次数略大，约为n^2/4，不适合数据很多的时候使用。
 下面考虑*折半插入*能否优化。
 
 
 ### 2.折半插入排序 Binary Insertion Sort
-<!--C-->
 
-    void BInsertSort(myList &p)
+```
+     void BInsertSort(myList &p)
     {
         int low,high,mid,j;
         for(int i = 2; i <= MAXSIZE; i++){
@@ -75,6 +78,7 @@ __示例的数据结构__
            p.data[high + 1] = p.data[0];
         }
     }
+```
     
 折半插入排序时间复杂度依然为O(n^2)。比较次数相对直接插入排序有所减少，但是记录的移动次数没变。
 接下来考虑减少移动次数的方法——*2-路插入排序*。
@@ -86,6 +90,7 @@ __示例的数据结构__
 把d想象成循环向量，设两个指针first和final分别指排序过程中得到的有序序列的第一个和最后一个记录。
 
 
+```
     void BiInsertSort(myList &p)
     {
         myList temp;
@@ -116,6 +121,8 @@ __示例的数据结构__
             p.data[i] = temp.data[(first++)% MAXSIZE];
         }
     }
+```
+
 
 在二路插入排序中，移动记录的次数约为n^2/8。当d[1]恰好是待排序记录中最小或者最大元素的时候，就失去了该算法的优越性。
 因此，若希望在排序过程中不移动记录，只有改变存储结构，进行*表插入排序*。
@@ -124,6 +131,7 @@ __示例的数据结构__
 ### 4. 表插入排序
 存储结构：
 
+```
     #define SIZE 10 //静态链表容量
     
     typedef struct{
@@ -135,7 +143,8 @@ __示例的数据结构__
       SLNode r[SIZE];
       int length;
     }SLinkListType;
-    
+```
+å
 表插入排序的过程：
 首先将静态链表中数组下标为1的结点和表头结点构成一个循环链表，然后依次将下标为2至n的结点按记录关键字非递减有序插入到循环链表中。
 表插入排序的时间复杂度仍是O(n2)。
@@ -150,6 +159,7 @@ __示例的数据结构__
  
  [动画演示](http://www.tyut.edu.cn/kecheng1/site01/suanfayanshi/shell_sort.asp) 
  
+```
     void shell_pass(myList &p,int d)
     {
         int j,k;
@@ -169,5 +179,6 @@ __示例的数据结构__
             shell_pass(p,dk[i]);
         }
     }
+```
     
 希尔排序的比较和移动次数约为n^1.3次，n->无穷大则约为n(log2n)^2。时间复杂度为O(n^1.5)。

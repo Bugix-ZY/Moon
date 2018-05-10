@@ -3,7 +3,7 @@ layout: post
 title: "Neural Network (I)"
 date: 2016-07-17
 excerpt: "感知器、激励神经元、基本神经网络结构、梯度下降"
-tags: [Deep Learning, Machine Leaning]
+tags: [Deep Learning, Machine Learning]
 comments: true
 ---
 

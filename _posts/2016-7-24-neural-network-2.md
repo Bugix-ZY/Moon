@@ -3,7 +3,7 @@ layout: post
 title: "Neural Network (I)"
 date: 2016-07-17
 excerpt: "harmard product、反向传播算法"
-tags: [Deep Learning, Machine Leaning]
+tags: [Deep Learning, Machine Learning]
 comments: true
 ---
 参考资料:
@@ -11,6 +11,7 @@ comments: true
 [How the backpropagation algorithm works--Michael Nielsen ](http://neuralnetworksanddeeplearning.com/chap2.html) 
 
 [反向传导算法 -- Uflfl](http://deeplearning.stanford.edu/wiki/index.php/%E5%8F%8D%E5%90%91%E4%BC%A0%E5%AF%BC%E7%AE%97%E6%B3%95)
+
 *****
 
 
@@ -60,7 +61,7 @@ BP可以来计算这些残差 并且把这些残差联系到∂Cx/∂w和∂Cx/�
 ******
 #### 5. BP算法的代码实现
 
-
+```
       class Network(object):
       ...
        def backprop(self, x, y):
@@ -115,6 +116,7 @@ BP可以来计算这些残差 并且把这些残差联系到∂Cx/∂w和∂Cx/�
        """Derivative of the sigmoid function."""
       return sigmoid(z)*(1-sigmoid(z))
 
+```
 
 BP到底哪里快了？可以发现，求得所有偏导，只需要前向传播一次和后向传播一次。
 

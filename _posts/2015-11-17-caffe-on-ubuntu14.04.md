@@ -126,4 +126,3 @@ I0126 17:32:32.171516 18290 solver.cpp:246] Iteration 10000, loss = 0.00453533I0
 
 
 
-[Bugix]:    http://zhengy.me  "ZhengYang"
