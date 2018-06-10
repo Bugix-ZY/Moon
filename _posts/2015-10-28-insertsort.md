@@ -3,7 +3,7 @@ layout: post
 title: "Insert Sort"
 date: 2015-10-28
 excerpt: "直接、折半、二路、表插入、希尔排序"
-tags: [algorithm]
+tags: [Algorithm]
 comments: true
 ---
 

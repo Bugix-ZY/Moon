@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "演算法期中复习 CH02-CH09" 
+title: "Algorithms Midterm Review: CH02-CH09" 
 date: 2016-11-09
 excerpt: "Introduction to alogorithms CH02-CH09"
-tags: [algorithm]
+tags: [Algorithm]
 comments: true
 ---
 

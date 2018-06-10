@@ -3,7 +3,7 @@ layout: post
 title: "Install Caffe On Ubuntu14.04"
 date: 2015-11-17
 excerpt: "Install Caffe On Ubuntu14.04"
-tags: [caffe]
+tags: [Caffe]
 comments: true
 ---
 
