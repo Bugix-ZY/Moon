@@ -3,7 +3,7 @@ layout: post
 title: "TensorFlow: Getting Started"
 date: 2017-06-19
 excerpt: "Install and Getting started"
-tags:[TensorFlow, Machine Learning]
+tags: [TensorFlow, Machine Learning]
 comments: true
 ---
 
