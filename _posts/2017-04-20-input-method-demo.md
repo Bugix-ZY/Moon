@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "Chinese Input Method - Demo"
-date:   2017-08-15
+date:   2017-04-20
 excerpt: "Based on Statistical Language Model"
 project: true
 tag:
-- project
-- machine learning 
+- Projects
+- Machine Learning 
 comments: true
 
 ---
