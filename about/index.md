@@ -4,8 +4,7 @@ title: Yang Zheng
 tags: [about]
 date: 2018-09-15
 comments: false
-feature: https://Bugix-ZY.github.io/images/postImages/aboutme/M1.jpg
-
+feature: https://Bugix-ZY.github.io/images/postImages/aboutme/M2.jpg
 ---
 
 Hey yall, I am Yang!
