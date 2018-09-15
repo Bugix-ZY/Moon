@@ -8,9 +8,9 @@ comments: true
 ---
 参考资料:
 
-[How the backpropagation algorithm works--Michael Nielsen ](http://neuralnetworksanddeeplearning.com/chap2.html) 
+[How the backpropagation algorithm works--Michael Nielsen ](https://neuralnetworksanddeeplearning.com/chap2.html) 
 
-[反向传导算法 -- Uflfl](http://deeplearning.stanford.edu/wiki/index.php/%E5%8F%8D%E5%90%91%E4%BC%A0%E5%AF%BC%E7%AE%97%E6%B3%95)
+[反向传导算法 -- Uflfl](https://deeplearning.stanford.edu/wiki/index.php/%E5%8F%8D%E5%90%91%E4%BC%A0%E5%AF%BC%E7%AE%97%E6%B3%95)
 
 *****
 

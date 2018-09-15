@@ -96,7 +96,7 @@ comments: true
 
 ## CH06 Heapsort
 
-之前有写过一篇关于heapsort的理解：[heapsort](http://bugix-zy.github.io/Heapsort)
+之前有写过一篇关于heapsort的理解：[heapsort](https://bugix-zy.github.io/Heapsort)
 
 - heap的概念 heap存在数组里
 
